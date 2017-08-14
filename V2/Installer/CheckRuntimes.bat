@@ -1,6 +1,4 @@
 @echo off
-echo hi
-pause
 start MSAGENT /Q
 start spchapi /Q
 start actcnc /Q
