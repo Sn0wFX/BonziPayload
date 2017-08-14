@@ -1,7 +1,6 @@
 @echo off
-start BonziBuddy432 /s 
+start /WAIT BonziBuddy432 /s 
 start CheckRuntimes 
-TIMEOUT /T 420
 IF EXIST %PROGRAMFILES%/BonziBuddy432 (
 regedit.exe /S registry32.reg 
 ) ELSE (
